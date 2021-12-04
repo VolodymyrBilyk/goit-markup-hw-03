@@ -1,0 +1,243 @@
+:root {
+  --primary-text-color: #757575;
+  --title-text-color: #212121;
+  --title-second-text-color: #ffffff;
+  --accent-color: #2196f3;
+}
+
+.body {
+  font-family: Roboto, sans-serif;
+  color: var(--primary-text-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+/*Logo*/
+
+.logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+
+  text-decoration: none;
+
+  color: var(--accent-color);
+}
+
+.logo-studio {
+  color: #000000;
+}
+
+/*site nav*/
+
+.site-nav .site-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+
+  color: var(--title-text-color);
+}
+
+.site-nav .site-nav-link:hover,
+.site-nav .site-nav-link:focus {
+  color: var(--accent-color);
+}
+
+.site-nav .site-nav-link.current {
+  color: var(--accent-color);
+}
+
+.adress-nav .adress-nav-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  text-decoration: none;
+
+  color: var(--primary-text-color);
+}
+
+.adress-nav .adress-nav-link:hover,
+.adress-nav .adress-nav-link:focus {
+  color: var(--accent-color);
+}
+
+/*hero*/
+
+.hero {
+  background-color: #2f303a;
+}
+
+.hero .hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--title-second-text-color);
+}
+
+.hero .buttons {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+  background-color: var(--accent-color);
+  color: var(--title-second-text-color);
+}
+
+.hero .buttons:hover,
+.hero .buttons:focus {
+  color: var(--title-second-text-color);
+  background-color: var(--accent-color);
+}
+
+/*features*/
+
+.features,
+.projects {
+  display: none;
+}
+
+.features-list .title {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+.title-text {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+
+/*our work*/
+
+/*our team*/
+
+.our-team {
+  background-color: #f5f4fa;
+}
+
+.team-list .name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--title-text-color);
+}
+
+.team-list .post {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
+
+/*footer*/
+
+.footer {
+  background-color: #2f303a;
+}
+
+.footer .logo-studio-white {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+
+  color: var(--title-second-text-color);
+}
+
+.footer .link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
+
+  color: var(--title-second-text-color);
+}
+
+.footer .link-rgb {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  text-decoration: none;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer .link-rgb:hover,
+.footer .link-rgb:focus {
+  color: var(--accent-color);
+}
+
+/*portfolio only*/
+
+.projects-filter .projects-filter-buttons {
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
+
+  cursor: pointer;
+  background-color: #f5f4fa;
+  color: var(--title-text-color);
+}
+
+.projects-filter .projects-filter-buttons:hover,
+.projects-filter .projects-filter-buttons:focus {
+  color: var(--title-second-text-color);
+  background-color: var(--accent-color);
+}
+
+.projects-list .projects-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+
+  color: var(--title-text-color);
+}
+
+.projects-list .projects-text {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+
+  color: var(--primary-text-color);
+}
